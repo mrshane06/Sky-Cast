@@ -18,4 +18,4 @@ def index():
     return render_template('search.html', data=current_weather, forecast=forecast)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
