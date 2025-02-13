@@ -1,0 +1,48 @@
+body{
+    background-image: url(/static/images/pexels-no-name-14543-66997.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#sky{
+    margin: 50px;
+}
+
+::placeholder{
+    text-align: center;
+}
+
+h3{
+    margin: 50px;
+}
+
+#Current{
+    border: 2px solid white;
+    width: 300px;
+    display:block ;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Icon{
+    width: 100px;
+    height: 100px;
+}
+
+#fore{
+    margin: 50px;
+}
+
+#container{
+    margin-top: 5rem;
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+}
+
+#cards {
+    margin-top: 30px;
+    height: 60%;
+}

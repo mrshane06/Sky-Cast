@@ -1,0 +1,68 @@
+
+.body{
+    background-image: url("/static/images/pexels-brett-sayles-1431822.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img{
+    display: block;
+    margin-top: 220px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button{
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    display: block;
+    margin-top:20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(204, 246, 250);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.button a{
+    text-decoration: none;
+    color: black;
+}
+
+.button:hover{
+    transform: scale(1 , 1.05);
+    -webkit-transform: scale(1 , 1.05);
+    -moz-transform: scale(1 , 1.05);
+    -ms-transform: scale(1 , 1.05);
+    -o-transform: scale(1 , 1.05);
+    box-shadow: 3px 3px 3px black;
+}
+
+@media only screen and (max-width:450px){
+    .body{
+        background-image: url("/static/images/pexels-brett-sayles-1431822.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 475px;
+    }
+
+.img{
+    margin-top: 180px;;
+}
+}
+
+@media only screen and (max-width:360px){
+    .body{
+        background-image: url("/static/images/pexels-brett-sayles-1431822.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 525px;
+    }
+
+.img{
+    margin-top: 180px;;
+}
+}
